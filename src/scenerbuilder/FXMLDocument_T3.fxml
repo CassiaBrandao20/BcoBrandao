@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="447.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLDocumentController_T2">
+    <children>
+      <ImageView fitHeight="490.0" fitWidth="637.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagemBco.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button3" layoutX="89.0" layoutY="14.0" onAction="#handleButtonAction" prefHeight="53.0" prefWidth="451.0" style="-fx-background-color: #1E90FF;" text="BANCO BRANDÃO" textFill="#fcfafa">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="341.0" layoutY="194.0" prefHeight="27.0" prefWidth="109.0" style="-fx-background-color: #1E90FF;" text="SAQUE:" textFill="#f2eeee">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="80.0" prefHeight="37.0" prefWidth="224.0" style="-fx-background-color: #1E90FF;" text="     EXTRATO" textAlignment="CENTER" textFill="#f2eeee">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cxvl" layoutX="472.0" layoutY="188.0" prefHeight="39.0" prefWidth="131.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="button1" layoutX="330.0" layoutY="253.0" onAction="#depositar" prefHeight="39.0" prefWidth="282.0" style="-fx-background-color: #1E90FF;" text="IMPRIMIR SALDO" textFill="#fcfafa">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="cxresult" layoutX="325.0" layoutY="313.0" prefHeight="92.0" prefWidth="298.0" />
+      <Label layoutX="341.0" layoutY="138.0" style="-fx-background-color: #1E90FF;" text="DEPOSITO:" textFill="#f2eeee">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cxvl1" layoutX="472.0" layoutY="132.0" prefHeight="39.0" prefWidth="131.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="button2" layoutX="483.0" layoutY="419.0" onAction="#sacar" prefHeight="37.0" prefWidth="140.0" style="-fx-background-color: #1E90FF;" text="SAIR" textFill="#fcfafa">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

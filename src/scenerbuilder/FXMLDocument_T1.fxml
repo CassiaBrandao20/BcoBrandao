@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="469.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLDocumentController_T1">
+    <children>
+      <AnchorPane id="AnchorPane" prefHeight="410.0" prefWidth="541.0">
+          <children>
+            <ImageView fitHeight="463.0" fitWidth="629.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@imagemBco.png" />
+               </image>
+            </ImageView>
+              <Label fx:id="label1" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+            <Button fx:id="button11" layoutX="392.0" layoutY="344.0" onAction="#acessar" style="-fx-background-color: #1E90FF;" text="ACESSAR" textFill="#fcfafa">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="112.0" layoutY="25.0" prefHeight="37.0" prefWidth="413.0" style="-fx-background-color: #1E90FF;" text="      BANCO BRANDÃO" textFill="#fcf9f9">
+               <font>
+                  <Font name="Arial Black" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="335.0" layoutY="146.0" prefHeight="30.0" prefWidth="113.0" style="-fx-background-color: #1E90FF;" text=" AGENCIA:" textFill="#fcf9f9">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="335.0" layoutY="207.0" prefHeight="30.0" prefWidth="113.0" style="-fx-background-color: #1E90FF;" text="  CONTA:" textFill="#fcf9f9">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="cxagencia" layoutX="458.0" layoutY="137.0" prefHeight="39.0" prefWidth="151.0" promptText="1234">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="cxconta" layoutX="458.0" layoutY="203.0" prefHeight="39.0" prefWidth="151.0" promptText="567890">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="cxsenha" layoutX="458.0" layoutY="268.0" prefHeight="39.0" prefWidth="151.0" promptText="brandao">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="335.0" layoutY="272.0" prefHeight="30.0" prefWidth="113.0" style="-fx-background-color: #1E90FF;" text="  SENHA:" textFill="#fcf9f9">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+          </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
